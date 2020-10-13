@@ -1,0 +1,282 @@
+*{margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F8F8FF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+#container{
+    background-color: #ffffff;
+    width: 950px;
+    margin: 25px 280px;
+}
+.news-banner{
+    margin: 0;
+    background-color: #ffffff;
+    padding: 0;
+}
+#top-banner{
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 520px;
+}
+#logo{
+    position: relative;
+    left: 279px;
+    bottom:50px;  
+}
+#signin{
+    position: relative;
+    left: 890px;
+    bottom: 88px;
+    width: 100px; 
+    height: 40px;
+}
+#search{
+    padding:10px;
+    position: relative;
+    left: 800px;
+    bottom: 42px;
+    width: 80px; 
+    height: 30px;
+}
+#thesun-navbar{
+    margin: 0;
+    position: relative;
+    bottom: 55px;
+}
+#thesun-navbar ul{
+    padding: 6px 280px;
+    list-style: none;
+    background-color: #ffffff;
+}
+#thesun-navbar li{
+    display: inline;
+    padding: 3px 10px;
+    border-left: #D3D3D3 1px;
+}
+#thesun-navbar a{
+    text-decoration: none;
+    color: #000000;  
+    font-weight: bolder;
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#thesun-navbar a:hover{
+    color: #800080;
+}
+#football-navbar{
+    margin: 0;
+    position: relative;
+    bottom: 66px;
+}
+#football-navbar ul{
+    margin: 0;
+    padding: 13px 280px;
+    list-style: none;
+    background-color:#419071;
+}
+#football-navbar li{
+    margin: 0;
+    padding: 5px 15px 8px;
+    border-right: #000000 solid 1px;
+    display: inline;
+}
+#football-navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#football-navbar a:hover{
+    text-decoration: underline;
+}
+#stack{
+    width: 350px;
+    height: 85px;
+    padding: 20px 20px 0 0;
+}
+nav{
+    height: 40px;
+}
+#container2{
+    width: 580px;
+    padding-left: 30px;
+}
+#verde{
+    color: #419071;
+    display: inline;
+}
+h1{
+    padding: 5px 0;
+    font-weight: 1200;
+    font-size: 30px;
+    line-height: 1em;
+    word-spacing: 0.01em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#author{
+    padding:  0;
+    display: inline-block;
+    padding: 15px 0 0;
+}
+#author a{
+    text-decoration: none underline;
+    font-weight: 900;
+    font-size: 13px;
+    color: #419071;
+}
+#update{
+    color: #778899;
+    font-size: 13px;
+    font-weight: 900 ;
+    padding: 0 0 5px 0;
+    display: inline-block;
+}
+hr{
+    color: #808080;
+}
+#social-media-banner{
+    padding-top: 10px;
+}
+.facebook{
+    width: 35px;
+    height: 35px;
+    padding: 0 10px 0 0;
+    border-right: lightslategray 1px solid;  
+}
+.twitter{
+    width: 35px;
+    height: 35px;
+    padding:0 10px 0 0;
+}
+#submit{
+    color: #ffffff;
+    background-color: #4169E1;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 2000;
+    padding:10px 0;
+}
+.image{
+    width: 580px;
+    padding: 20px 0 3px 0;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    white-space:pre-line;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+figcaption{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font: 9px;
+      padding-bottom: 10px;
+}
+small{
+      color: #778899;
+      font-size: 11px;
+}
+h2{
+    font-size: 23px;
+    font-weight: bold;
+}
+#topics{
+    padding: 20px 0;
+}
+#topics a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px #000000 solid;
+    padding: 10px;
+    margin: 0px 10px;
+}
+#Comments{
+    text-transform: uppercase;
+}
+#policy{
+    color: #808080;
+    font-size: 14px;
+    padding: 15px 0;
+}
+#policy a{
+    color: #00BFFF;
+}
+#textarea{
+    width: 100%;
+    height: 40px;
+}
+#container3{
+    background-color: #222526;
+    color: #C0C0C0;
+    padding: 15px 280px;
+}
+#follow{
+    float: left;
+    width: 40%;
+    padding:0 40px 220px 0;
+}
+#services{
+    color: #ffffff;
+    display: inline;
+    width: 60%;
+    font-size: 12px;
+    text-align: right;
+    padding: 20px 0 ;
+}
+#services ul{
+    list-style: none;
+    display: inline;
+}
+#services li{
+    padding-right: 8px;
+    display: inline;
+    font-size: 18px;
+    border-right: #ffffff 1px solid;
+}
+#services a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a{
+    color: #808080;
+}
+#greentittle{
+    color: #419071;
+}
+#blacktittle{
+    color: #000000;
+}
+#Go{
+    color: white;
+    background-color: #4169E1;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
